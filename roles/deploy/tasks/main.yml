@@ -1,6 +1,6 @@
 - name: download artifact
   get_url:
-     url: https://github.com/Anji399/pri/raw/master/target/prime.war
+     url: http://65.1.147.176:8081/repository/prime/
      dest: /tmp
 - name: copy artifact
   copy:
