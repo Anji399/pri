@@ -1,10 +1,10 @@
 - name: download artifact
   get_url:
      url: http://13.235.81.116:8081/repository/prime/
-     dest: /tmp
+     dest: /home/mpr/
 - name: copy artifact
   copy:
-     src: /tmp/prime.war
+     src: prime.war
      dest: /opt/tomcat/webapps/prime.war
      owner: tomcat
      group: tomcat
