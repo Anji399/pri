@@ -20,11 +20,11 @@
   </properties>
   
   <distributionManagement>
-    <releaseRepository>
+    <snapshotRepository>
       <id>pri</id>
       <name>pri</name>
       <url>http://13.235.81.116:8081/repository/pri/</url>
-    </releaseRepository>
+    </snapshotRepository>
   </distributionManagement>
 
   <dependencies>
