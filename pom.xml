@@ -23,7 +23,7 @@
     <snapshotRepository>
       <id>prime</id>
       <name>prime</name>
-      <url>http://65.1.147.176:8081/repository/prime/</url>
+      <url>http://65.1.94.41:8081/repository/prime/</url>
     </snapshotRepository>
   </distributionManagement>
 
