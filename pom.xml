@@ -21,9 +21,9 @@
   
   <distributionManagement>
     <snapshotRepository>
-      <id>calculator</id>
-      <name>calculator</name>
-      <url>http://localhost:8081/repository/calculator/</url>
+      <id>prime</id>
+      <name>prime</name>
+      <url>http://65.1.147.176:8081/repository/prime/</url>
     </snapshotRepository>
   </distributionManagement>
 
