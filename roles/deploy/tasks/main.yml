@@ -1,11 +1,11 @@
 - name: download artifact
   get_url:
-     url: http://13.235.81.116:8081/repository/prime/
+     url: http://13.235.81.116:8081/repository/prime/pri/prime/1.0-SNAPSHOT/prime-1.0-20220115.081158-1.war
      dest: /usr
 - name: copy artifact
   copy:
-     src: /usr/prime.war
-     dest: /opt/tomcat/webapps/prime.war
+     src: /usr/prime-1.0-20220115.081158-1.war
+     dest: /opt/tomcat/webapps/prime-1.0-20220115.081158-1.war
      owner: tomcat
      group: tomcat
      remote_src: yes
